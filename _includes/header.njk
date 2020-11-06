@@ -1,0 +1,5 @@
+<ul class="pure-menu-list">
+  {% for item in nav.data %}
+    <li class="pure-menu-item"><a href="{{ item.url }}" class="pure-menu-link">{{ item.label }}</a></li>
+  {% endfor %}
+</ul>
